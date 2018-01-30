@@ -1,0 +1,131 @@
+html, body, section {
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+}
+
+div {
+  margin: 20px;
+  text-align:left;
+}
+
+section {
+  float: left;
+  width: 50%;
+}
+
+section#results {
+  background: #f53240;
+}
+
+/* headers */
+
+h1{
+  font-family: 'Bitter', serif;
+  text-transform: uppercase;
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  color: black;
+  font-size: 200%;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  width: 88%;
+  text-transform: uppercase;
+  margin: auto;
+  padding-top: 5px;
+  color: black;
+  font-size: 81%;
+}
+
+#form {
+  font-family: 'Montserrat', sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+/* form text */
+
+label {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 75%;
+  padding-right: 3.75em;
+  width: 30%;
+  display: inline-block;
+}
+
+input {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  width: 240px;
+  height: 35px;
+  padding: 3px;
+  border: none;
+  background-color: #02c8a7;
+}
+
+input[type="text"]:focus {
+  background-color: #7cdbd5;
+}
+
+/* buttons on form */
+
+input[type=submit], input[type=reset] {
+  font-family: 'Bitter', serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 70%;
+  text-align: center;
+  padding: 12px;
+  width: 115px;
+  margin-top: 12px;
+  margin-left: 10px;
+  border: 1px solid #f9be02;
+  background-color: #f9be02;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+  color: #f9be02;
+  border: 1px solid #f9be02;
+  background-color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:active, input[type=reset]:active {
+  color: white;
+  border: 1px solid #f9be02;
+  background-color: #f9be02;
+}
+
+input[type=reset]:focus, input[type=submit]:focus {
+  outline: none;
+}
+
+p {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  line-height: 1.5em;
+  margin: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 25px;
+  right: 0;
+}

@@ -1,8 +1,7 @@
-@charset "UTF-8";
 body {
   background-color: #664C73;
   color: #FFF;
-  font-size: .7em;
+  font-size: 70%;
   font-family: 'Verdana', sans-serif;
 }
 
@@ -12,13 +11,14 @@ ul {
 }
 
 li {
-  line-height: 8pt;
+  line-height: 10pt;
 }
 
 /* font style */
 
 a:link, a:visited, a:active {
-  color: #796D7F;
+  color: #9E8EA6;
+  font-size: 120%;
   text-transform: lowercase;
   text-decoration: none;
 }
@@ -62,11 +62,10 @@ section {
 footer {
   clear: both;
   text-decoration: none;
-  position: fixed;
   bottom: 0;
   font-size: .8em;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 footer ul li {
