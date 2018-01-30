@@ -18,10 +18,12 @@ function processForm() {
   var animalUnit = document.f.animalUnit.value;
   var emotion = document.f.emotion.value;
   var adjTwo = document.f.adjTwo.value;
+  var food = document.f.food.value;
 
 
 
-  msg.innerHTML = "So, " + name + " hasn't been seen very much since they graduated, but did you hear how they now have " + number + " cats in their apartment? It's amazing that they're able to feed all of them with their " + major + " career. Rumor has it that the walls are filled with " + adj + " photos and paintings of various breeds of cats, and that they even have several cat-shaped " + furniture + ". Quite frankly, I’m very " + emotion + " when looking at this situation. I’m sure all their furry friends are very " + adjTwo + ". Honestly, I really like " + animalUnit + ", so to each their own I suppose." + name + " is definitely living their best life out there.";
+
+  msg.innerHTML = "So, <b>" + name + "</b> hasn't been out very much in public since they graduated. I found out that after several years, they now have <b>" + number + "</b> cats in their apartment! It's amazing that they're able to feed all of them with their <b>" + major + "</b> career. Rumor has it that the walls are filled with <b>" + adj + "</b> photos and paintings of various breeds of cats, and that they even have several cat-shaped <b>" + furniture + "</b>. I wonder where you can purchase such niche pieces like that. Quite frankly, I’m very <b>" + emotion + "</b> when looking at this situation. I’m sure all their furry friends are very <b>" + adjTwo + "</b> and taken care of well. They must be getting first-class meals of <b>" + food + "</b>. Sometimes, I wonder what their opinion on dogs is? Honestly, I really like <b>" + animalUnit + "</b>, so to each their own I suppose. <b>" + name + "</b> is definitely living their best life out there, and I'm eternally jealous.";
 
   return false;
 }
