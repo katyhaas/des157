@@ -5,8 +5,9 @@ html, body, section {
 }
 
 div {
-  margin: 20px;
-  text-align:left;
+  margin: 10px;
+  text-align: left;
+
 }
 
 section {
@@ -18,9 +19,9 @@ section#results {
   background: #f53240;
 }
 
-/* headers */
+/* headers and font*/
 
-h1{
+h1 {
   font-family: 'Bitter', serif;
   text-transform: uppercase;
   width: 90%;
@@ -30,7 +31,7 @@ h1{
   font-size: 200%;
 }
 
-h2{
+h2 {
   font-family: 'Montserrat', sans-serif;
   width: 88%;
   text-transform: uppercase;
@@ -40,10 +41,17 @@ h2{
   font-size: 81%;
 }
 
-#form {
+a:link, a:active, a:visited {
   font-family: 'Montserrat', sans-serif;
-  width: 80%;
-  margin: auto;
+  color: white;
+  font-size: 65%;
+  text-decoration:none;
+
+}
+
+a:hover {
+  color: black;
+
 }
 
 /* form text */
@@ -51,18 +59,19 @@ h2{
 label {
   text-align: left;
   text-transform: uppercase;
-  font-size: 75%;
+  font-size: 65%;
   padding-right: 3.75em;
-  width: 30%;
+  width: 40%;
   display: inline-block;
 }
 
 input {
   font-family: Helvetica, sans-serif;
+  font-size: 65%;
   color: white;
-  width: 240px;
+  width: 230px;
   height: 35px;
-  padding: 3px;
+  padding: 5px;
   border: none;
   background-color: #02c8a7;
 }
@@ -105,13 +114,13 @@ input[type=reset]:focus, input[type=submit]:focus {
 }
 
 p {
-  font-family: Raleway, sans-serif;
-  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-size: 80%;
   color: white;
   text-align: left;
   line-height: 1.5em;
   margin: 30px;
-  padding-top: 30px;
+  padding-top: 70px;
   padding-bottom: 30px
 }
 
