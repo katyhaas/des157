@@ -11,7 +11,9 @@ div {
   padding: 5px;
   text-align: left;
 }
-
+img {
+  display: inline;
+}
 section {
   background-color: #c18ecf;
   width: 100%;
@@ -127,8 +129,6 @@ b {
   }
   img {
     display: inline;
-    width: 75%;
-    height: 75%;
   }
   section {
     text-align: center;
