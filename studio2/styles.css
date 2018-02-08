@@ -13,8 +13,8 @@ div {
 }
 img {
   display: inline;
-  width:275px;
-  height:458px;
+  width:22%;
+  height:22%;
 }
 section {
   background-color: #c18ecf;
@@ -131,6 +131,8 @@ b {
   }
   img {
     display: inline;
+    width:28%;
+    height:28%;
   }
   section {
     text-align: center;
@@ -140,15 +142,15 @@ b {
   }
   #box1, #box2, #box3 {
     top: 70%;
-    width: 450px;
+    width: 75%;
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     opacity: .8;
   }
   #box1 p, #box2 p, #box3 p {
-    font-size: 30px;
+    font-size: 20px;
   }
   #box1, #box2, #box3 {
-    left: 20%;
+    left: 50%;
   }
   }
