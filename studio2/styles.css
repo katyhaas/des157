@@ -130,17 +130,21 @@ b {
     font-family: 'VT323', monospace;
     font-size: 100%;
   }
+
   img {
     display: inline;
     width: 28%;
     height: 28%;
   }
+
   section {
     text-align: center;
   }
+
   footer {
     background-color: #c18ecf;
   }
+
   #box1, #box2, #box3 {
     top: 70%;
     left: 50%;
