@@ -127,6 +127,8 @@ b {
   }
   img {
     display: inline;
+    width: 95%;
+    height: 95%;
   }
   section {
     text-align: center;
