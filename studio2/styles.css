@@ -13,6 +13,8 @@ div {
 }
 img {
   display: inline;
+  width:275px;
+  height:458px;
 }
 section {
   background-color: #c18ecf;
