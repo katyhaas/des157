@@ -12,7 +12,8 @@ ul {
 }
 
 li {
-  line-height: 8pt;
+  line-height: 14.5pt;
+  list-style-type: none;
 }
 
 /* font style */
@@ -25,6 +26,12 @@ a:link, a:visited, a:active {
 
 a:hover {
   color: #F3D9FF;
+}
+
+.circle {
+  border-radius: 50%;
+  float: left;
+  padding: 20px 20px 20px 20px;
 }
 
 /* headers */
@@ -64,17 +71,25 @@ section {
   margin: auto;
 }
 
-footer {
-  clear: both;
-  text-decoration: none;
-  font-size: .8em;
-  text-align: center;
-  padding-top: 80px;
+div{
+  margin-left:100px;
 }
 
-p{
-padding:10px;
-line-height:1.4em;
+footer {
+  font-size: .8em;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 1%;
+  position: fixed;
+  margin: 0 auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+  text-align: line-height: 1.4em;
 }
 
 footer ul li {
