@@ -44,10 +44,13 @@ h1, h2, h3 {
 h3 {
   letter-spacing: 1pt;
   font-size: 1em;
-  border-left: 8px solid #FFF;
+  border-left: 8px solid #44334d;
   padding-left: 7px;
 }
 
+b{
+  color:#44334d;
+}
 /* structural */
 
 #col1 {
