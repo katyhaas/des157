@@ -2,29 +2,47 @@
 
 console.log('reading');
 
-//variables
-var sound;
+// variables
+var tunes;
+var mic;
 
-// Called directly before setup(), the preload() function is used to handle asynchronous loading of external files. If a preload function is defined, setup() will wait until any load calls within have finished.
+var play = document.getElementById('play');
+var pause = document.getElementById('pause');
+
+// load audio
 function preload() {
-  sound = loadSound("https://katyhaas.github.io/des157/studio4/music/song1_Q.mp3"); // Creative Common license
+  tunes = loadSound("https://katyhaas.github.io/des157/studio4/music/song1_Q.mp3");
 }
 
+// loop music + start mic
 function setup() {
-  var canvas = createCanvas(600, 400);
-  background("green");
-  sound.play();
+  var canvas = createCanvas(500, 500);
+  canvas.parent('container');
+  console.log('jamming');
+  tunes.loop();
+  mic = new p5.AudioIn()
+  mic.start();
 }
 
 function draw() {
+  // get volume of mic
+  var micLevel = mic.getLevel();
+
+  // draw the ellipse based on mic level
+  ellipse(width / 2, height / 2,
+    constrain(micLevel * height * 1.85, 0, height),
+    constrain(micLevel * height * 1.85, 0, height),
+    55, 55
+  );
+  fill('#46567A');
+  stroke('#2B4774');
+  strokeWeight(4);
 }
 
-function mousePressed() {
-  if ( sound.isPlaying() ) { // .isPlaying() returns a boolean
-    sound.pause(); // .play() will resume from .pause() position
-    background(255,0,0);
-  } else {
-    sound.play();
-    background(0,255,0);
-  }
+// pause + play music
+pause.onclick = function(event) {
+  tunes.pause();
+}
+play.onclick = function(event) {
+  tunes.play();
 }
