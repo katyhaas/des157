@@ -14,12 +14,14 @@ function preload() {
   tunes = loadSound("https://katyhaas.github.io/des157/studio4/music/song1_Q.mp3");
 }
 
-// loop music + start mic
+// setup function
 function setup() {
   var canvas = createCanvas(500, 500);
   canvas.parent('container');
   console.log('jamming');
+  // loop music
   tunes.loop();
+  // start mic
   mic = new p5.AudioIn()
   mic.start();
 }
@@ -32,8 +34,8 @@ function draw() {
   ellipse(width / 2, height / 2,
     constrain(micLevel * height * 1.85, 0, height),
     constrain(micLevel * height * 1.85, 0, height),
-    55, 55
-  );
+    55, 55);
+  // ellipse attributes
   fill('#46567A');
   stroke('#2B4774');
   strokeWeight(4);
