@@ -64,6 +64,7 @@ footer {
   text-decoration: none;
   bottom: 0;
   position:fixed;
+  width: 100%;
   font-size: .8em;
   text-align: center;
   padding-top: 100px;
