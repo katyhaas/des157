@@ -63,6 +63,7 @@ footer {
   clear: both;
   text-decoration: none;
   bottom: 0;
+  position:fixed;
   font-size: .8em;
   text-align: center;
   padding-top: 100px;
