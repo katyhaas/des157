@@ -49,9 +49,16 @@ h3 {
 }
 
 #col2 {
-  width: 50%;
+  width: 25%;
   float: left;
 }
+
+#col3 {
+  padding-top:35px;
+  width: 25%;
+  float: left;
+}
+
 
 section {
   width: 740px;
