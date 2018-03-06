@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5DC7D5;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:url(#SVGID_2_);}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'Karla-Bold';}
+	.st5{font-size:36.5429px;}
+	.st6{font-size:79px;}
+	.st7{fill:none;}
+	.st8{font-size:23px;}
+	.st9{letter-spacing:1;}
+	.st10{fill:none;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
+</style>
+<rect class="st0" width="1280" height="1024"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="667.5" y1="951" x2="667.5" y2="571.9997">
+	<stop  offset="0" style="stop-color:#ADDEDA;stop-opacity:0"/>
+	<stop  offset="0.4947" style="stop-color:#ABE0D8;stop-opacity:0.4833"/>
+	<stop  offset="0.7469" style="stop-color:#9BECD0;stop-opacity:0.7412"/>
+	<stop  offset="1" style="stop-color:#87FCC5"/>
+</linearGradient>
+<polygon class="st1" points="1196,847 139,847 199,565 1129,565 "/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="416.7142" y1="-135.6478" x2="742.1368" y2="511.3497">
+	<stop  offset="0" style="stop-color:#ADDEDA"/>
+	<stop  offset="0.3986" style="stop-color:#AAE0D9"/>
+	<stop  offset="0.6596" style="stop-color:#A2E7D4"/>
+	<stop  offset="0.8806" style="stop-color:#93F3CB"/>
+	<stop  offset="1" style="stop-color:#87FCC5"/>
+</linearGradient>
+<rect x="199" y="200" class="st2" width="930" height="312"/>
+<text transform="matrix(1 0 0 1 613.5718 780.3594)" class="st3 st4 st5">START</text>
+<text transform="matrix(1 0 0 1 292.7969 380.2031)" class="st3 st4 st6">music visualization</text>
+<rect x="375" y="594.7" class="st7" width="578.7" height="160.9"/>
+<text transform="matrix(1 0 0 1 375 610.4878)"><tspan x="0" y="0" class="st3 st4 st8">Lorem</tspan><tspan x="68" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="75.7" y="0" class="st3 st4 st8">ipsum</tspan><tspan x="145.6" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="153.4" y="0" class="st3 st4 st8">dolor</tspan><tspan x="210.1" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="217.8" y="0" class="st3 st4 st8">sit</tspan><tspan x="246.6" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="254.3" y="0" class="st3 st4 st8">amet,</tspan><tspan x="316.6" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="324.4" y="0" class="st3 st4 st8">consectetur</tspan><tspan x="454.8" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="462.5" y="0" class="st3 st4 st8">adipiscing </tspan><tspan x="0" y="27.6" class="st3 st4 st8">elit.</tspan><tspan x="40.8" y="27.6" class="st3 st4 st8"> </tspan><tspan x="46.4" y="27.6" class="st3 st4 st8">Ut</tspan><tspan x="71.4" y="27.6" class="st3 st4 st8"> </tspan><tspan x="77" y="27.6" class="st3 st4 st8">ac</tspan><tspan x="102.6" y="27.6" class="st3 st4 st8"> </tspan><tspan x="108.3" y="27.6" class="st3 st4 st8">finibus</tspan><tspan x="186.8" y="27.6" class="st3 st4 st8"> </tspan><tspan x="192.4" y="27.6" class="st3 st4 st8">nulla.</tspan><tspan x="253.5" y="27.6" class="st3 st4 st8"> </tspan><tspan x="259.2" y="27.6" class="st3 st4 st8">Aliquam</tspan><tspan x="351.8" y="27.6" class="st3 st4 st8"> </tspan><tspan x="357.4" y="27.6" class="st3 st4 st8">cursus</tspan><tspan x="432.3" y="27.6" class="st3 st4 st8"> </tspan><tspan x="437.9" y="27.6" class="st3 st4 st8">ipsum</tspan><tspan x="507.9" y="27.6" class="st3 st4 st8"> </tspan><tspan x="513.5" y="27.6" class="st3 st4 st8">a</tspan><tspan x="526.9" y="27.6" class="st3 st4 st8"> </tspan><tspan x="532.6" y="27.6" class="st3 st4 st8">sem </tspan><tspan x="175.4" y="55.2" class="st3 st4 st8">commodo imperdiet.</tspan></text>
+<path class="st10" d="M780.5,828.5h-233c-6.6,0-12-5.4-12-12v-89c0-6.6,5.4-12,12-12h233c6.6,0,12,5.4,12,12v89
+	C792.5,823.1,787.1,828.5,780.5,828.5z"/>
+</svg>

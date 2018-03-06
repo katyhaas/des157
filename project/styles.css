@@ -48,9 +48,15 @@ h3 {
   padding-left: 7px;
 }
 
-b{
-  color:#44334d;
+b {
+  color: #44334d;
 }
+
+.img {
+  width: 65%;
+  height: 65%;
+}
+
 /* structural */
 
 #col1 {
@@ -72,11 +78,11 @@ section {
   width: 740px;
   padding-top: 50px;
   margin: auto;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
-div{
-  margin-left:100px;
+div {
+  margin-left: 100px;
 }
 
 footer {
@@ -86,7 +92,7 @@ footer {
   bottom: 0;
   position: fixed;
   margin-top: 10px;
-  padding:5px;
+  padding: 5px;
   text-align: center;
 }
 
