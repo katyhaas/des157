@@ -43,19 +43,33 @@ refresh.addEventListener('click', function() {
 
   //button colors back to normal
   song1.style.backgroundColor = "rgb(165, 153, 232)";
+  song1.style.opacity = "1";
   song2.style.backgroundColor = "rgb(165, 153, 232)";
+  song2.style.opacity = "1";
   song3.style.backgroundColor = "rgb(165, 153, 232)";
+  song3.style.opacity = "1";
   song4.style.backgroundColor = "rgb(165, 153, 232)";
+  song4.style.opacity = "1";
 
   color1.style.backgroundColor = "rgb(165, 153, 232)";
+  color1.style.opacity = "1";
   color2.style.backgroundColor = "rgb(165, 153, 232)";
+  color2.style.opacity = "1";
   color3.style.backgroundColor = "rgb(165, 153, 232)";
+  color3.style.opacity = "1";
   color4.style.backgroundColor = "rgb(165, 153, 232)";
+  color4.style.opacity = "1";
+
 
   pattern1.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern1.style.opacity = "1";
   pattern2.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern2.style.opacity = "1";
   pattern3.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern3.style.opacity = "1";
   pattern4.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern4.style.opacity = "1";
+
 })
 
 //navigation buttons display
@@ -85,28 +99,40 @@ patternz.addEventListener('click', function() {
 song1.addEventListener('click', function() {
   song1.style.backgroundColor = "rgb(153, 182, 232)";
   song2.style.backgroundColor = "rgb(165, 153, 232)";
+  song2.style.opacity = "0.6";
   song3.style.backgroundColor = "rgb(165, 153, 232)";
+  song3.style.opacity = "0.6";
   song4.style.backgroundColor = "rgb(165, 153, 232)";
+  song4.style.opacity = "0.6";
 });
 
 song2.addEventListener('click', function() {
   song1.style.backgroundColor = "rgb(165, 153, 232)";
+  song1.style.opacity = "0.6";
   song2.style.backgroundColor = "rgb(153, 182, 232)";
   song3.style.backgroundColor = "rgb(165, 153, 232)";
+  song3.style.opacity = "0.6";
   song4.style.backgroundColor = "rgb(165, 153, 232)";
+  song4.style.opacity = "0.6";
 });
 
 song3.addEventListener('click', function() {
   song1.style.backgroundColor = "rgb(165, 153, 232)";
+  song1.style.opacity = "0.6";
   song2.style.backgroundColor = "rgb(165, 153, 232)";
+  song2.style.opacity = "0.6";
   song3.style.backgroundColor = "rgb(153, 182, 232)";
   song4.style.backgroundColor = "rgb(165, 153, 232)";
+  song4.style.opacity = "0.6";
 });
 
 song4.addEventListener('click', function() {
   song1.style.backgroundColor = "rgb(165, 153, 232)";
+  song1.style.opacity = "0.6";
   song2.style.backgroundColor = "rgb(165, 153, 232)";
+  song2.style.opacity = "0.6";
   song3.style.backgroundColor = "rgb(165, 153, 232)";
+  song3.style.opacity = "0.6";
   song4.style.backgroundColor = "rgb(153, 182, 232)";
 });
 
@@ -115,28 +141,40 @@ song4.addEventListener('click', function() {
 color1.addEventListener('click', function() {
   color1.style.backgroundColor = "rgb(153, 182, 232)";
   color2.style.backgroundColor = "rgb(165, 153, 232)";
+  color2.style.opacity = "0.6";
   color3.style.backgroundColor = "rgb(165, 153, 232)";
+  color3.style.opacity = "0.6";
   color4.style.backgroundColor = "rgb(165, 153, 232)";
+  color4.style.opacity = "0.6";
 });
 
 color2.addEventListener('click', function() {
   color1.style.backgroundColor = "rgb(165, 153, 232)";
+  color1.style.opacity = "0.6";
   color2.style.backgroundColor = "rgb(153, 182, 232)";
   color3.style.backgroundColor = "rgb(165, 153, 232)";
+  color3.style.opacity = "0.6";
   color4.style.backgroundColor = "rgb(165, 153, 232)";
+  color4.style.opacity = "0.6";
 });
 
 color3.addEventListener('click', function() {
   color1.style.backgroundColor = "rgb(165, 153, 232)";
+  color1.style.opacity = "0.6";
   color2.style.backgroundColor = "rgb(165, 153, 232)";
+  color2.style.opacity = "0.6";
   color3.style.backgroundColor = "rgb(153, 182, 232)";
   color4.style.backgroundColor = "rgb(165, 153, 232)";
+  color4.style.opacity = "0.6";
 });
 
 color4.addEventListener('click', function() {
   color1.style.backgroundColor = "rgb(165, 153, 232)";
+  color1.style.opacity = "0.6";
   color2.style.backgroundColor = "rgb(165, 153, 232)";
+  color2.style.opacity = "0.6";
   color3.style.backgroundColor = "rgb(165, 153, 232)";
+  color3.style.opacity = "0.6";
   color4.style.backgroundColor = "rgb(153, 182, 232)";
 });
 
@@ -145,31 +183,46 @@ color4.addEventListener('click', function() {
 pattern1.addEventListener('click', function() {
   pattern1.style.backgroundColor = "rgb(153, 182, 232)";
   pattern2.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern2.style.opacity = "0.6";
   pattern3.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern3.style.opacity = "0.6";
   pattern4.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern4.style.opacity = "0.6";
 });
 
 pattern2.addEventListener('click', function() {
   pattern1.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern1.style.opacity = "0.6";
   pattern2.style.backgroundColor = "rgb(153, 182, 232)";
   pattern3.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern3.style.opacity = "0.6";
   pattern4.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern4.style.opacity = "0.6";
 });
 
 pattern3.addEventListener('click', function() {
   pattern1.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern1.style.opacity = "0.6";
   pattern2.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern2.style.opacity = "0.6";
   pattern3.style.backgroundColor = "rgb(153, 182, 232)";
   pattern4.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern4.style.opacity = "0.6";
+
 });
 
 pattern4.addEventListener('click', function() {
   pattern1.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern1.style.opacity = "0.6";
   pattern2.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern2.style.opacity = "0.6";
   pattern3.style.backgroundColor = "rgb(165, 153, 232)";
+  pattern3.style.opacity = "0.6";
   pattern4.style.backgroundColor = "rgb(153, 182, 232)";
 });
 
+
+//canvas
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight);
   cnv.style('display', 'block');

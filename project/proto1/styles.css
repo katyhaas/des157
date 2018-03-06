@@ -1,0 +1,103 @@
+/* structural */
+
+body {
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  height: 450px;
+}
+
+section {
+  width: 32%;
+  float: left;
+}
+
+/* section attributes */
+
+#sect1, #sect2, #sect3, #sect4, #sect5 {
+  position: absolute;
+  width: 100%;
+  margin-top: 100px;
+}
+
+#sect2, #sect3, #sect4, #sect5 {
+  display: none;
+}
+
+/* headers and font */
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  height: 75px;
+  border-radius: 18px;
+  border: 4px solid #ddd;
+  background-color: #A599E8;
+  opacity: 1;
+  margin: 15px;
+  padding: 50px;
+}
+
+li:hover {
+  background-color: #99B6E8;
+  cursor: pointer;
+}
+
+/* buttons + sliders */
+
+#refresh {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  width: 130px;
+  height: 15px;
+  padding: 5px;
+  left: 45%;
+  top: 20px;
+}
+
+#refresh:hover {
+  cursor: pointer;
+  border-right: 20px solid black;
+}
+
+input[type=button], input[type=button]:visited {
+  font-size: 135%;
+  color: black;
+  background-color: #ddd;
+  height: 105px;
+  width: 105px;
+  border-radius: 55px;
+  margin-top: 10px;
+}
+
+input[type=button]:hover, input[type=button]:active {
+  color: white;
+  background-color: #666;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: .7;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #A599E8;
+  cursor: pointer;
+}
+
+#begin:hover, #next1:hover, #next2:hover, #next3:hover, #submit:hover {
+  cursor: pointer;
+}
