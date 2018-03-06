@@ -4,22 +4,22 @@
 	 viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:#5DC7D5;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
+	.st1{fill:#5DC7D5;}
 	.st2{fill:#FFFFFF;}
 	.st3{font-family:'Karla-Bold';}
 	.st4{font-size:23px;}
 	.st5{font-size:60px;}
-	.st6{font-size:36.5429px;}
-	.st7{fill:none;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
+	.st6{fill:url(#SVGID_2_);stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-width:8;stroke-miterlimit:10;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="640" y1="-53.6379" x2="640" y2="1042">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="641" y1="-52.6379" x2="641" y2="1043">
 	<stop  offset="0" style="stop-color:#ADDEDA"/>
 	<stop  offset="0.3986" style="stop-color:#AAE0D9"/>
 	<stop  offset="0.6596" style="stop-color:#A2E7D4"/>
 	<stop  offset="0.8806" style="stop-color:#93F3CB"/>
 	<stop  offset="1" style="stop-color:#87FCC5"/>
 </linearGradient>
-<rect class="st0" width="1280" height="1024"/>
+<rect x="1" y="1" class="st0" width="1280" height="1024"/>
 <path class="st1" d="M620.5,511.5h-209c-6.6,0-12-5.4-12-12v-185c0-6.6,5.4-12,12-12h209c6.6,0,12,5.4,12,12v185
 	C632.5,506.1,627.1,511.5,620.5,511.5z"/>
 <text transform="matrix(1 0 0 1 480.623 358.2466)" class="st2 st3 st4">song 1</text>
@@ -33,7 +33,14 @@
 	C885.5,740.1,880.1,745.5,873.5,745.5z"/>
 <text transform="matrix(1 0 0 1 733.623 592.2466)" class="st2 st3 st4">song 4</text>
 <text transform="matrix(1 0 0 1 399.8555 228.4204)" class="st2 st3 st5">CHOOSE A SONG:</text>
-<text transform="matrix(1 0 0 1 597.5718 860.3594)" class="st2 st3 st6">NEXT</text>
-<path class="st7" d="M756.5,903.5h-233c-6.6,0-12-5.4-12-12v-89c0-6.6,5.4-12,12-12h233c6.6,0,12,5.4,12,12v89
-	C768.5,898.1,763.1,903.5,756.5,903.5z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="578" y1="861" x2="702" y2="861">
+	<stop  offset="0" style="stop-color:#ADDEDA"/>
+	<stop  offset="0.3986" style="stop-color:#AAE0D9"/>
+	<stop  offset="0.6596" style="stop-color:#A2E7D4"/>
+	<stop  offset="0.8806" style="stop-color:#93F3CB"/>
+	<stop  offset="1" style="stop-color:#87FCC5"/>
+</linearGradient>
+<circle class="st6" cx="640" cy="861" r="62"/>
+<line class="st7" x1="627.5" y1="831.5" x2="661.7" y2="863.3"/>
+<line class="st7" x1="661.7" y1="859.2" x2="627.5" y2="891"/>
 </svg>

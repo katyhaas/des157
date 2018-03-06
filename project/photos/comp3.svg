@@ -8,22 +8,21 @@
 	.st2{fill:url(#SVGID_2_);}
 	.st3{fill:#FFFFFF;}
 	.st4{font-family:'Karla-Bold';}
-	.st5{font-size:36.5429px;}
-	.st6{font-size:79px;}
-	.st7{fill:none;}
-	.st8{font-size:23px;}
-	.st9{letter-spacing:1;}
-	.st10{fill:none;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
+	.st5{font-size:79px;}
+	.st6{fill:none;}
+	.st7{font-size:23px;}
+	.st8{fill:url(#SVGID_3_);stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#FFFFFF;stroke-width:8;stroke-miterlimit:10;}
 </style>
 <rect class="st0" width="1280" height="1024"/>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="667.5" y1="951" x2="667.5" y2="571.9997">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="667.5" y1="73" x2="667.5" y2="452.0003" gradientTransform="matrix(1 0 0 -1 0 1024)">
 	<stop  offset="0" style="stop-color:#ADDEDA;stop-opacity:0"/>
 	<stop  offset="0.4947" style="stop-color:#ABE0D8;stop-opacity:0.4833"/>
 	<stop  offset="0.7469" style="stop-color:#9BECD0;stop-opacity:0.7412"/>
 	<stop  offset="1" style="stop-color:#87FCC5"/>
 </linearGradient>
 <polygon class="st1" points="1196,847 139,847 199,565 1129,565 "/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="416.7142" y1="-135.6478" x2="742.1368" y2="511.3497">
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="416.7142" y1="1159.6478" x2="742.1368" y2="512.6503" gradientTransform="matrix(1 0 0 -1 0 1024)">
 	<stop  offset="0" style="stop-color:#ADDEDA"/>
 	<stop  offset="0.3986" style="stop-color:#AAE0D9"/>
 	<stop  offset="0.6596" style="stop-color:#A2E7D4"/>
@@ -31,10 +30,49 @@
 	<stop  offset="1" style="stop-color:#87FCC5"/>
 </linearGradient>
 <rect x="199" y="200" class="st2" width="930" height="312"/>
-<text transform="matrix(1 0 0 1 613.5718 780.3594)" class="st3 st4 st5">START</text>
-<text transform="matrix(1 0 0 1 292.7969 380.2031)" class="st3 st4 st6">music visualization</text>
-<rect x="375" y="594.7" class="st7" width="578.7" height="160.9"/>
-<text transform="matrix(1 0 0 1 375 610.4878)"><tspan x="0" y="0" class="st3 st4 st8">Lorem</tspan><tspan x="68" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="75.7" y="0" class="st3 st4 st8">ipsum</tspan><tspan x="145.6" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="153.4" y="0" class="st3 st4 st8">dolor</tspan><tspan x="210.1" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="217.8" y="0" class="st3 st4 st8">sit</tspan><tspan x="246.6" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="254.3" y="0" class="st3 st4 st8">amet,</tspan><tspan x="316.6" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="324.4" y="0" class="st3 st4 st8">consectetur</tspan><tspan x="454.8" y="0" class="st3 st4 st8 st9"> </tspan><tspan x="462.5" y="0" class="st3 st4 st8">adipiscing </tspan><tspan x="0" y="27.6" class="st3 st4 st8">elit.</tspan><tspan x="40.8" y="27.6" class="st3 st4 st8"> </tspan><tspan x="46.4" y="27.6" class="st3 st4 st8">Ut</tspan><tspan x="71.4" y="27.6" class="st3 st4 st8"> </tspan><tspan x="77" y="27.6" class="st3 st4 st8">ac</tspan><tspan x="102.6" y="27.6" class="st3 st4 st8"> </tspan><tspan x="108.3" y="27.6" class="st3 st4 st8">finibus</tspan><tspan x="186.8" y="27.6" class="st3 st4 st8"> </tspan><tspan x="192.4" y="27.6" class="st3 st4 st8">nulla.</tspan><tspan x="253.5" y="27.6" class="st3 st4 st8"> </tspan><tspan x="259.2" y="27.6" class="st3 st4 st8">Aliquam</tspan><tspan x="351.8" y="27.6" class="st3 st4 st8"> </tspan><tspan x="357.4" y="27.6" class="st3 st4 st8">cursus</tspan><tspan x="432.3" y="27.6" class="st3 st4 st8"> </tspan><tspan x="437.9" y="27.6" class="st3 st4 st8">ipsum</tspan><tspan x="507.9" y="27.6" class="st3 st4 st8"> </tspan><tspan x="513.5" y="27.6" class="st3 st4 st8">a</tspan><tspan x="526.9" y="27.6" class="st3 st4 st8"> </tspan><tspan x="532.6" y="27.6" class="st3 st4 st8">sem </tspan><tspan x="175.4" y="55.2" class="st3 st4 st8">commodo imperdiet.</tspan></text>
-<path class="st10" d="M780.5,828.5h-233c-6.6,0-12-5.4-12-12v-89c0-6.6,5.4-12,12-12h233c6.6,0,12,5.4,12,12v89
-	C792.5,823.1,787.1,828.5,780.5,828.5z"/>
+<text transform="matrix(1 0 0 1 292.7969 380.2031)" class="st3 st4 st5">music visualization</text>
+<rect x="375" y="594.7" class="st6" width="578.7" height="160.9"/>
+<text transform="matrix(1 0 0 1 375 610.4878)" class="st3 st4 st7">Lorem</text>
+<text transform="matrix(1 0 0 1 443 610.4878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 450.7 610.4878)" class="st3 st4 st7">ipsum</text>
+<text transform="matrix(1 0 0 1 520.6 610.4878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 528.4 610.4878)" class="st3 st4 st7">dolor</text>
+<text transform="matrix(1 0 0 1 585.1 610.4878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 592.8 610.4878)" class="st3 st4 st7">sit</text>
+<text transform="matrix(1 0 0 1 621.6 610.4878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 629.3 610.4878)" class="st3 st4 st7">amet,</text>
+<text transform="matrix(1 0 0 1 691.6 610.4878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 699.4 610.4878)" class="st3 st4 st7">consectetur</text>
+<text transform="matrix(1 0 0 1 829.8 610.4878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 837.5 610.4878)" class="st3 st4 st7">adipiscing </text>
+<text transform="matrix(1 0 0 1 375 638.0878)" class="st3 st4 st7">elit.</text>
+<text transform="matrix(1 0 0 1 415.8 638.0878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 421.4 638.0878)" class="st3 st4 st7">Ut</text>
+<text transform="matrix(1 0 0 1 446.4 638.0878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 452 638.0878)" class="st3 st4 st7">ac</text>
+<text transform="matrix(1 0 0 1 477.6 638.0878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 483.3 638.0878)" class="st3 st4 st7">finibus</text>
+<text transform="matrix(1 0 0 1 561.8 638.0878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 567.4 638.0878)" class="st3 st4 st7">nulla.</text>
+<text transform="matrix(1 0 0 1 628.5 638.0878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 634.2 638.0878)" class="st3 st4 st7">Aliquam</text>
+<text transform="matrix(1 0 0 1 726.8 638.0878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 732.4 638.0878)" class="st3 st4 st7">cursus</text>
+<text transform="matrix(1 0 0 1 807.3 638.0878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 812.9 638.0878)" class="st3 st4 st7">ipsum</text>
+<text transform="matrix(1 0 0 1 882.9 638.0878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 888.5 638.0878)" class="st3 st4 st7">a</text>
+<text transform="matrix(1 0 0 1 901.9 638.0878)" class="st3 st4 st7"> </text>
+<text transform="matrix(1 0 0 1 907.6 638.0878)" class="st3 st4 st7">sem </text>
+<text transform="matrix(1 0 0 1 550.4 665.6878)" class="st3 st4 st7">commodo imperdiet.</text>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="602" y1="768" x2="726" y2="768">
+	<stop  offset="0" style="stop-color:#ADDEDA"/>
+	<stop  offset="0.3986" style="stop-color:#AAE0D9"/>
+	<stop  offset="0.6596" style="stop-color:#A2E7D4"/>
+	<stop  offset="0.8806" style="stop-color:#93F3CB"/>
+	<stop  offset="1" style="stop-color:#87FCC5"/>
+</linearGradient>
+<circle class="st8" cx="664" cy="768" r="62"/>
+<line class="st9" x1="651.5" y1="738.5" x2="685.7" y2="770.3"/>
+<line class="st9" x1="685.7" y1="766.2" x2="651.5" y2="798"/>
 </svg>
