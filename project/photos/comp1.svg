@@ -4,16 +4,15 @@
 	 viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:none;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
 	.st2{fill:#FFFFFF;}
 	.st3{font-family:'Karla-Bold';}
 	.st4{font-size:38px;}
 	.st5{font-size:79px;}
 	.st6{fill:none;}
 	.st7{font-size:23px;}
-	.st8{letter-spacing:1;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="640" y1="4.9186" x2="640" y2="1111.5209">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="640" y1="1019.0814" x2="640" y2="-87.5209" gradientTransform="matrix(1 0 0 -1 0 1024)">
 	<stop  offset="0" style="stop-color:#74BBEF"/>
 	<stop  offset="0.2021" style="stop-color:#8BBAF2"/>
 	<stop  offset="0.622" style="stop-color:#C4B7F8"/>
@@ -24,5 +23,37 @@
 <text transform="matrix(1 0 0 1 582.6812 672.3042)" class="st2 st3 st4">START</text>
 <text transform="matrix(1 0 0 1 266.7969 320.2031)" class="st2 st3 st5">music visualization</text>
 <rect x="351" y="370.7" class="st6" width="578.7" height="160.9"/>
-<text transform="matrix(1 0 0 1 351 386.4878)"><tspan x="0" y="0" class="st2 st3 st7">Lorem</tspan><tspan x="68" y="0" class="st2 st3 st7 st8"> </tspan><tspan x="75.7" y="0" class="st2 st3 st7">ipsum</tspan><tspan x="145.6" y="0" class="st2 st3 st7 st8"> </tspan><tspan x="153.4" y="0" class="st2 st3 st7">dolor</tspan><tspan x="210.1" y="0" class="st2 st3 st7 st8"> </tspan><tspan x="217.8" y="0" class="st2 st3 st7">sit</tspan><tspan x="246.6" y="0" class="st2 st3 st7 st8"> </tspan><tspan x="254.3" y="0" class="st2 st3 st7">amet,</tspan><tspan x="316.6" y="0" class="st2 st3 st7 st8"> </tspan><tspan x="324.4" y="0" class="st2 st3 st7">consectetur</tspan><tspan x="454.8" y="0" class="st2 st3 st7 st8"> </tspan><tspan x="462.5" y="0" class="st2 st3 st7">adipiscing </tspan><tspan x="0" y="27.6" class="st2 st3 st7">elit.</tspan><tspan x="40.8" y="27.6" class="st2 st3 st7"> </tspan><tspan x="46.4" y="27.6" class="st2 st3 st7">Ut</tspan><tspan x="71.4" y="27.6" class="st2 st3 st7"> </tspan><tspan x="77" y="27.6" class="st2 st3 st7">ac</tspan><tspan x="102.6" y="27.6" class="st2 st3 st7"> </tspan><tspan x="108.3" y="27.6" class="st2 st3 st7">finibus</tspan><tspan x="186.8" y="27.6" class="st2 st3 st7"> </tspan><tspan x="192.4" y="27.6" class="st2 st3 st7">nulla.</tspan><tspan x="253.5" y="27.6" class="st2 st3 st7"> </tspan><tspan x="259.2" y="27.6" class="st2 st3 st7">Aliquam</tspan><tspan x="351.8" y="27.6" class="st2 st3 st7"> </tspan><tspan x="357.4" y="27.6" class="st2 st3 st7">cursus</tspan><tspan x="432.3" y="27.6" class="st2 st3 st7"> </tspan><tspan x="437.9" y="27.6" class="st2 st3 st7">ipsum</tspan><tspan x="507.9" y="27.6" class="st2 st3 st7"> </tspan><tspan x="513.5" y="27.6" class="st2 st3 st7">a</tspan><tspan x="526.9" y="27.6" class="st2 st3 st7"> </tspan><tspan x="532.6" y="27.6" class="st2 st3 st7">sem </tspan><tspan x="175.4" y="55.2" class="st2 st3 st7">commodo imperdiet.</tspan></text>
+<text transform="matrix(1 0 0 1 351 386.4878)" class="st2 st3 st7">Lorem</text>
+<text transform="matrix(1 0 0 1 419 386.4878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 426.7 386.4878)" class="st2 st3 st7">ipsum</text>
+<text transform="matrix(1 0 0 1 496.6 386.4878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 504.4 386.4878)" class="st2 st3 st7">dolor</text>
+<text transform="matrix(1 0 0 1 561.1 386.4878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 568.8 386.4878)" class="st2 st3 st7">sit</text>
+<text transform="matrix(1 0 0 1 597.6 386.4878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 605.3 386.4878)" class="st2 st3 st7">amet,</text>
+<text transform="matrix(1 0 0 1 667.6 386.4878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 675.4 386.4878)" class="st2 st3 st7">consectetur</text>
+<text transform="matrix(1 0 0 1 805.8 386.4878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 813.5 386.4878)" class="st2 st3 st7">adipiscing </text>
+<text transform="matrix(1 0 0 1 351 414.0878)" class="st2 st3 st7">elit.</text>
+<text transform="matrix(1 0 0 1 391.8 414.0878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 397.4 414.0878)" class="st2 st3 st7">Ut</text>
+<text transform="matrix(1 0 0 1 422.4 414.0878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 428 414.0878)" class="st2 st3 st7">ac</text>
+<text transform="matrix(1 0 0 1 453.6 414.0878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 459.3 414.0878)" class="st2 st3 st7">finibus</text>
+<text transform="matrix(1 0 0 1 537.8 414.0878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 543.4 414.0878)" class="st2 st3 st7">nulla.</text>
+<text transform="matrix(1 0 0 1 604.5 414.0878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 610.2 414.0878)" class="st2 st3 st7">Aliquam</text>
+<text transform="matrix(1 0 0 1 702.8 414.0878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 708.4 414.0878)" class="st2 st3 st7">cursus</text>
+<text transform="matrix(1 0 0 1 783.3 414.0878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 788.9 414.0878)" class="st2 st3 st7">ipsum</text>
+<text transform="matrix(1 0 0 1 858.9 414.0878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 864.5 414.0878)" class="st2 st3 st7">a</text>
+<text transform="matrix(1 0 0 1 877.9 414.0878)" class="st2 st3 st7"> </text>
+<text transform="matrix(1 0 0 1 883.6 414.0878)" class="st2 st3 st7">sem </text>
+<text transform="matrix(1 0 0 1 526.4 441.6878)" class="st2 st3 st7">commodo imperdiet.</text>
 </svg>
