@@ -16,6 +16,16 @@ section {
   float: left;
 }
 
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 3%;
+  position: fixed;
+  margin: 0 auto;
+  margin-right: auto;
+  text-align: center;
+}
 /* section attributes */
 
 #sect1, #sect2, #sect3, #sect4, #sect5 {
@@ -52,6 +62,17 @@ li:hover {
   cursor: pointer;
 }
 
+a:link, a:active, a:visited {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 65%;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: white;
+}
 /* buttons + sliders */
 
 #refresh {
