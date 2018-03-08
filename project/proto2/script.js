@@ -75,9 +75,9 @@ function setup() {
 
   for (var i = 0; i < 20; i++) {
     circles.push(new patt1());
-    triangles.push(new patt4());
+    triangles.push(new patt2());
     lines.push(new patt3());
-    squares.push(new patt2());
+    squares.push(new patt4());
     }
 }
 
@@ -343,7 +343,7 @@ function patt1() {
   };
 }
 
-// other option
+// triangle
 function patt2() {
   this.x = random(width);
   this.y = random(height);
@@ -351,7 +351,7 @@ function patt2() {
 
   this.display = function() {
     fill('rgba(255,255,255)');
-    rect(this.x, this.y, this.diameter + shSize, this.diameter + shSize);
+    triangle(this.x, this.y, this.diameter + shSize, this.diameter + shSize, this.x,  this.diameter + shSize);
   };
 }
 
