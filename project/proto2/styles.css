@@ -5,10 +5,9 @@ body {
   color: white;
   text-align: center;
   height: 450px;
-  background:#ddd;
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-background-size: 400% 400%;
-animation: Gradient 12s ease infinite;
+  background-size: 400% 400%;
+  animation: Gradient 12s ease infinite;
 }
 
 section {
@@ -26,6 +25,7 @@ footer {
   margin-right: auto;
   text-align: center;
 }
+
 /* section attributes */
 
 #sect1, #sect2, #sect3, #sect4, #sect5 {
@@ -73,6 +73,7 @@ a:link, a:active, a:visited {
 a:hover {
   color: white;
 }
+
 /* buttons + sliders */
 
 #refresh {
@@ -90,16 +91,15 @@ a:hover {
 #refresh:hover {
   cursor: pointer;
   color: black;
-
 }
 
 input[type=button], input[type=button]:visited {
   font-size: 135%;
   color: #777;
   background-color: #fff;
-  border:1px solid #777;
   height: 105px;
   width: 105px;
+  border-style:none;
   border-radius: 55px;
   transition: background-color 0.5s;
   margin-top: 10px;
@@ -107,8 +107,7 @@ input[type=button], input[type=button]:visited {
 
 input[type=button]:hover, input[type=button]:active {
   color: white;
-  background-color: #666;
-  border:1px solid white;
+  background-color: #333;
   opacity: .7;
 }
 
@@ -135,16 +134,41 @@ input[type=button]:hover, input[type=button]:active {
   cursor: pointer;
 }
 
+/* gradient class */
+
+.gradient1 {
+background: linear-gradient(-45deg, #BF2889, #E73C7E, #873E5C, #C11B57);
+background-size: 400% 400%;
+animation: Gradient 12s ease infinite;
+}
+
+.gradient2 {
+background: linear-gradient(-45deg, #BF2889, #E73C7E, #873E5C, #C11B57);
+background-size: 400% 400%;
+animation: Gradient 12s ease infinite;
+}
+
+.gradient3 {
+background: linear-gradient(-45deg, #BF2889, #E73C7E, #873E5C, #C11B57);
+background-size: 400% 400%;
+animation: Gradient 12s ease infinite;
+}
+
+.gradient4 {
+background: linear-gradient(-45deg, #BF2889, #E73C7E, #873E5C, #C11B57);
+background-size: 400% 400%;
+animation: Gradient 12s ease infinite;
+}
 /* keyframes */
 
 @keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
 }

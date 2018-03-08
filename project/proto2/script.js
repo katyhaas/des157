@@ -32,6 +32,16 @@ var color2 = document.querySelector("#color2");
 var color3 = document.querySelector("#color3");
 var color4 = document.querySelector("#color4");
 
+var colorChoice1 = document.getElementsByClassName('gradient1');
+var colorChoice1 = document.getElementsByClassName('gradient2');
+var colorChoice1 = document.getElementsByClassName('gradient3');
+var colorChoice1 = document.getElementsByClassName('gradient4');
+
+var purple = false;
+var pink = false;
+var orange = false;
+var blue = false;
+
 //patterns
 var pattern1 = document.querySelector("#patt1");
 var pattern2 = document.querySelector("#patt2");
@@ -72,6 +82,8 @@ function setup() {
 
   amp = new p5.Amplitude();
   amp.setInput(song);
+
+
 
   for (var i = 0; i < 20; i++) {
     circles.push(new patt1());
