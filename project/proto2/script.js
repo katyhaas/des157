@@ -38,18 +38,19 @@ var pattern2 = document.querySelector("#patt2");
 var pattern3 = document.querySelector("#patt3");
 var pattern4 = document.querySelector("#patt4");
 
-var texture1 = false;
-var texture2 = false;
-var texture3 = false;
-var texture4 = false;
+var shape1 = false;
+var shape2 = false;
+var shape3 = false;
+var shape4 = false;
 
 
 // animate patterns
 var shSize = 0;
+var amp;
 var pulse;
 var song;
-var amp;
 
+//shape variables
 var circles = [];
 var triangles = [];
 var lines = [];
@@ -65,9 +66,9 @@ function preload() {
 //make canvas
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  noFill();
+  fill('#dddddd');
   stroke('#2B4774');
-  strokeWeight(3);
+  strokeWeight(1);
 
   amp = new p5.Amplitude();
   amp.setInput(song);
@@ -82,20 +83,21 @@ function setup() {
 
 function draw() {
   pulse = amp.getLevel();
-  shSize = map(pulse, 0, 0.3, 10, 200);
-  if (texture1 == true) {
+  shSize = map(pulse, 0, 0.3, 10, 100);
+
+  if (shape1 == true) {
     for (var i = 0; i < circles.length; i++) {
       circles[i].display();
     }
-  } else if (texture2 == true) {
+  } else if (shape2 == true) {
     for (var i = 0; i < squares.length; i++) {
       triangles[i].display();
     }
-  } else if (texture3 == true) {
+  } else if (shape3 == true) {
     for (var i = 0; i < lines.length; i++) {
       lines[i].display();
     }
-  } else if (texture4 == true) {
+  } else if (shape4 == true) {
     for (var i = 0; i < triangles.length; i++) {
       squares[i].display();
     }
@@ -202,10 +204,10 @@ pattern1.addEventListener('click', function() {
   pattern4.style.backgroundColor = "rgb(165, 153, 232)";
   pattern4.style.opacity = "0.6";
 
-  texture1 = true;
-  texture2 = false;
-  texture3 = false;
-  texture4 = false;
+  shape1 = true;
+  shape2 = false;
+  shape3 = false;
+  shape4 = false;
 });
 
 pattern2.addEventListener('click', function() {
@@ -217,10 +219,10 @@ pattern2.addEventListener('click', function() {
   pattern4.style.backgroundColor = "rgb(165, 153, 232)";
   pattern4.style.opacity = "0.6";
 
-  texture1 = false;
-  texture2 = true;
-  texture3 = false;
-  texture4 = false;
+  shape1 = false;
+  shape2 = true;
+  shape3 = false;
+  shape4 = false;
 });
 
 pattern3.addEventListener('click', function() {
@@ -232,10 +234,10 @@ pattern3.addEventListener('click', function() {
   pattern4.style.backgroundColor = "rgb(165, 153, 232)";
   pattern4.style.opacity = "0.6";
 
-  texture1 = false;
-  texture2 = false;
-  texture3 = true;
-  texture4 = false;
+  shape1 = false;
+  shape2 = false;
+  shape3 = true;
+  shape4 = false;
 
 });
 
@@ -248,10 +250,10 @@ pattern4.addEventListener('click', function() {
   pattern3.style.opacity = "0.6";
   pattern4.style.backgroundColor = "rgb(153, 182, 232)";
 
-  texture1 = false;
-  texture2 = false;
-  texture3 = false;
-  texture4 = true;
+  shape1 = false;
+  shape2 = false;
+  shape3 = false;
+  shape4 = true;
 });
 
 
@@ -293,10 +295,10 @@ refresh.addEventListener('click', function() {
   pattern4.style.backgroundColor = "rgb(165, 153, 232)";
   pattern4.style.opacity = "1";
 
-  texture1 = false;
-  texture2 = false;
-  texture3 = false;
-  texture4 = false;
+  shape1 = false;
+  shape2 = false;
+  shape3 = false;
+  shape4 = false;
 
   clear();
   song.stop();
@@ -336,7 +338,7 @@ function patt1() {
   this.display = function() {
     fill('rgba(238,119,82)');
     stroke('#2B4774');
-    strokeWeight(2);
+    strokeWeight(1);
     ellipse(this.x, this.y, this.diameter + shSize, this.diameter + shSize);
   };
 }
@@ -361,7 +363,7 @@ function patt3() {
 
   this.display = function() {
     stroke('rgb(255,255,255)');
-    strokeWeight(2);
+    strokeWeight(1);
     line(this.x, this.y, this.diameter + shSize, this.diameter + shSize);
   };
 }
