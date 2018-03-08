@@ -158,6 +158,11 @@ color1.addEventListener('click', function() {
   color4.style.backgroundColor = "rgb(165, 153, 232)";
   color4.style.opacity = "0.6";
 
+  pink = true;
+  purple = false;
+  orange = false;
+  blue = false;
+
 });
 
 color2.addEventListener('click', function() {
@@ -376,6 +381,7 @@ function patt4() {
 
   this.display = function() {
     fill('rgba(255,255,255)');
+    strokeWeight(1);
     rect(this.x, this.y, this.diameter + shSize, this.diameter + shSize);
   };
 }
