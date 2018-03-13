@@ -40,10 +40,12 @@ var color2 = document.querySelector("#color2");
 var color3 = document.querySelector("#color3");
 var color4 = document.querySelector("#color4");
 
-var colorChoice1 = document.getElementsByClassName('gradient1');
-var colorChoice1 = document.getElementsByClassName('gradient2');
-var colorChoice1 = document.getElementsByClassName('gradient3');
-var colorChoice1 = document.getElementsByClassName('gradient4');
+var colorChoice = document.body.style.backgroundColor;
+var purple = false;
+var blue = false;
+var pink = false;
+var green = false;
+
 
 //patterns
 var pattern1 = document.querySelector("#patt1");
@@ -104,6 +106,10 @@ function draw() {
   pulse = amp.getLevel();
   shapeSize = map(pulse, 0, 0.3, 5, 40);
 
+  background(colorChoice);
+  colorChoice = ('orange');
+
+
   if (songA == true) {
     song = a;
   } else if (songB == true) {
@@ -112,6 +118,16 @@ function draw() {
     song = c;
   } else if (songD == true) {
     song = d;
+  }
+
+  if (purple == true) {
+    colorChoice = "rgb(185, 59, 227)";
+  } else if (pink == true) {
+    colorChoice = "rgb(231, 60, 126)";
+  } else if (blue == true) {
+    colorChoice = "rgb(35, 166, 213)";
+  } else if (green == true) {
+    colorChoice = "rgb(35, 213, 171)";
   }
 
   if (shape1 == true) {
@@ -132,19 +148,19 @@ function draw() {
     }
   }
 
-  if (faded==true) {
-     a.stop();
-     a.setVolume(2);
+  if (faded == true) {
+    a.stop();
+    a.setVolume(2);
 
-     b.stop();
-     b.setVolume(2);
+    b.stop();
+    b.setVolume(2);
 
-     c.stop();
-     c.setVolume(2);
+    c.stop();
+    c.setVolume(2);
 
-     d.stop();
-     d.setVolume(2);
-   }
+    d.stop();
+    d.setVolume(2);
+  }
 }
 
 //single button selected + highlighted
@@ -159,21 +175,21 @@ song1.addEventListener('click', function() {
   song4.style.backgroundColor = "rgb(165, 153, 232)";
   song4.style.opacity = "0.6";
 
-songA = true;
-songB = false;
-songC = false;
-songD = false;
+  songA = true;
+  songB = false;
+  songC = false;
+  songD = false;
 });
 
 song1.addEventListener('mouseover', function() {
-    a.fade(2, .5);
-    a.jump(7.5, 10);
-    faded=false;
+  a.fade(2, .5);
+  a.jump(7.5, 10);
+  faded = false;
 });
 
 song1.addEventListener('mouseout', function() {
-    a.fade(0, .5);
-    faded=true;
+  a.fade(0, .5);
+  faded = true;
 });
 song2.addEventListener('click', function() {
   song1.style.backgroundColor = "rgb(165, 153, 232)";
@@ -184,20 +200,20 @@ song2.addEventListener('click', function() {
   song4.style.backgroundColor = "rgb(165, 153, 232)";
   song4.style.opacity = "0.6";
 
-    songA = false;
-    songB = true;
-    songC = false;
-    songD = false;
+  songA = false;
+  songB = true;
+  songC = false;
+  songD = false;
 });
 
 song2.addEventListener('mouseover', function() {
-    b.jump(7.5, 10);
-    faded=false;
+  b.jump(7.5, 10);
+  faded = false;
 });
 
 song2.addEventListener('mouseout', function() {
-    b.fade(0, .5);
-    faded=true;
+  b.fade(0, .5);
+  faded = true;
 });
 
 song3.addEventListener('click', function() {
@@ -209,20 +225,20 @@ song3.addEventListener('click', function() {
   song4.style.backgroundColor = "rgb(165, 153, 232)";
   song4.style.opacity = "0.6";
 
-    songA = false;
-    songB = false;
-    songC = true;
-    songD = false;
+  songA = false;
+  songB = false;
+  songC = true;
+  songD = false;
 });
 
 song3.addEventListener('mouseover', function() {
-    c.jump(7.5);
-    faded=false;
+  c.jump(7.5);
+  faded = false;
 });
 
 song3.addEventListener('mouseout', function() {
-    c.fade(0, .5);
-    faded=true;
+  c.fade(0, .5);
+  faded = true;
 });
 
 song4.addEventListener('click', function() {
@@ -234,20 +250,20 @@ song4.addEventListener('click', function() {
   song3.style.opacity = "0.6";
   song4.style.backgroundColor = "rgb(153, 182, 232)";
 
-songA = false;
-songB = false;
-songC = false;
-songD = true;
+  songA = false;
+  songB = false;
+  songC = false;
+  songD = true;
 });
 
 song4.addEventListener('mouseover', function() {
-    d.jump(7.5, 10);
-    faded=false;
+  d.jump(7.5, 10);
+  faded = false;
 });
 
 song4.addEventListener('mouseout', function() {
-    d.fade(0, .5);
-    faded=true;
+  d.fade(0, .5);
+  faded = true;
 });
 
 
@@ -261,6 +277,12 @@ color1.addEventListener('click', function() {
   color4.style.backgroundColor = "rgb(165, 153, 232)";
   color4.style.opacity = "0.6";
 
+  var purple = true;
+  var pink = false;
+  var blue = false;
+  var green = false;
+
+
 });
 
 color2.addEventListener('click', function() {
@@ -271,6 +293,12 @@ color2.addEventListener('click', function() {
   color3.style.opacity = "0.6";
   color4.style.backgroundColor = "rgb(165, 153, 232)";
   color4.style.opacity = "0.6";
+
+  var purple = false;
+  var pink = true;
+  var blue = false;
+  var green = false;
+
 
 });
 
@@ -283,6 +311,11 @@ color3.addEventListener('click', function() {
   color4.style.backgroundColor = "rgb(165, 153, 232)";
   color4.style.opacity = "0.6";
 
+  var purple = false;
+  var pink = false;
+  var blue = true;
+  var green = false;
+
 });
 
 color4.addEventListener('click', function() {
@@ -294,6 +327,10 @@ color4.addEventListener('click', function() {
   color3.style.opacity = "0.6";
   color4.style.backgroundColor = "rgb(153, 182, 232)";
 
+  var purple = false;
+  var pink = false;
+  var blue = false;
+  var green = true;
 });
 
 
@@ -398,6 +435,13 @@ refresh.addEventListener('click', function() {
   pattern4.style.backgroundColor = "rgb(165, 153, 232)";
   pattern4.style.opacity = "1";
 
+  colorChoice = ('orange');
+  green = false;
+  blue = false;
+  pink = false;
+  purple = false;
+
+
   shape1 = false;
   shape2 = false;
   shape3 = false;
@@ -428,23 +472,23 @@ patternz.addEventListener('click', function() {
   sect5.style.display = 'block';
 
   song.play();
-  faded=false;
+  faded = false;
 });
 
 // Setup the star shape
 function star(x, y, radius1, radius2, npoints) {
-    var angle = TWO_PI / npoints;
-    var halfAngle = angle / 2.0;
-    beginShape();
-    for (var a = 0; a < TWO_PI; a += angle) {
-        var sx = x + cos(a) * radius2;
-        var sy = y + sin(a) * radius2;
-        vertex(sx, sy);
-        sx = x + cos(a + halfAngle) * radius1;
-        sy = y + sin(a + halfAngle) * radius1;
-        vertex(sx, sy);
-    }
-    endShape(CLOSE);
+  var angle = TWO_PI / npoints;
+  var halfAngle = angle / 2.0;
+  beginShape();
+  for (var a = 0; a < TWO_PI; a += angle) {
+    var sx = x + cos(a) * radius2;
+    var sy = y + sin(a) * radius2;
+    vertex(sx, sy);
+    sx = x + cos(a + halfAngle) * radius1;
+    sy = y + sin(a + halfAngle) * radius1;
+    vertex(sx, sy);
+  }
+  endShape(CLOSE);
 }
 // circles
 function patt1() {
@@ -490,9 +534,9 @@ function patt3() {
     strokeWeight(2);
     if (song.isPlaying()) {
       frameRate(6);
-      line(this.x + random(-150, 150), this.y + random(-300, 300), this.diameter + shapeSize , this.diameter + shapeSize);
+      line(this.x + random(-150, 150), this.y + random(-300, 300), this.diameter + shapeSize, this.diameter + shapeSize);
     }
-    line(this.x, this.y, this.diameter + shapeSize , this.diameter + shapeSize);
+    line(this.x, this.y, this.diameter + shapeSize, this.diameter + shapeSize);
   };
 }
 
@@ -506,7 +550,7 @@ function patt4() {
     fill('rgba(255,255,255, 0.5)');
     if (song.isPlaying()) {
       frameRate(6);
-      rect(this.x + random(-100, 100), this.y + random (-100, 100), this.diameter + shapeSize, this.diameter + shapeSize);
+      rect(this.x + random(-100, 100), this.y + random(-100, 100), this.diameter + shapeSize, this.diameter + shapeSize);
     } else {
       rect(this.x, this.y, this.diameter + shapeSize, this.diameter + shapeSize);
     }
