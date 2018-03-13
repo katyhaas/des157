@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>interactive wireframe</title>
+  <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!--js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.js"></script>
+
+
+</head>
+
+<body>
+  <div id="refresh">restart</div>
+
+  <section id="sect1">
+
+    <h1>music vizualization (title pending)</h1>
+    <p>go ahead and start the simulation process by clicking the button below!</p>
+    <input type="button" id="begin" value="start">
+
+  </section>
+
+  <section id="sect2">
+    <h2>select a song:</h2>
+    <nav>
+      <ul>
+        <li id="song1">song 1</li>
+        <li id="song2">song 2</li>
+        <li id="song3">song 3</li>
+        <li id="song4">song 4</li>
+      </ul>
+    </nav>
+    <input type="button" id="next1" value="next">
+  </section>
+
+  <section id="sect3">
+    <h2>select a color:</h2>
+<span>* this section is under construction, as I am currently trying to figure out how to change the moving gradient color, </span>
+<span>please select a color choice regardless *</span>
+
+    <nav>
+      <ul>
+        <li id="color1">pink</li>
+        <li id="color2">purple</li>
+        <li id="color3">orange</li>
+        <li id="color4">blue</li>
+      </ul>
+    </nav>
+    <input type="button" id="next2" value="next">
+  </section>
+
+  <section id="sect4">
+    <h2>select a pattern:</h2>
+    <nav>
+      <ul>
+        <li id="patt1">circles</li>
+        <li id="patt2">stars</li>
+        <li id="patt3">lines</li>
+        <li id="patt4">squares</li>
+      </ul>
+    </nav>
+    <input type="button" id="next3" value="next">
+  </section>
+
+  <section id="sect5">
+    <button class="c-site-nav-btn js-site-nav-btn--toggle">
+      <span class="c-site-nav-btn__line"></span>
+      <span class="c-site-nav-btn__line"></span>
+      <span class="c-site-nav-btn__line"></span>
+    </button>
+    <nav class="c-site-nav js-site-nav" tabindex="-1" role="navigation">
+      <h3>(UNDER CONSTRUCTION)</h3>
+    <p>In addition to color, background, and volume, this sidebar will house many other controls to allow the user to further customize their simulation.</p>
+        <h3>color</h3>
+        <input type="range" min="1" max="100" value="20" class="slider" id="color-slider">
+      </div>
+      <div>
+        <h3>background</h3>
+        <input type="range" min="1" max="100" value="45" class="slider" id="texture-slider">
+      </div>
+      <div>
+        <h3>volume</h3>
+        <input type="range" min="1" max="100" value="65" class="slider" id="volume-slider">
+    </nav>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <a href="https://katyhaas.github.io/des157">portal</a> .
+    <a href="mailto:kmhaas@ucdavis.edu">email</a> .
+    <a href="https://validator.w3.org/check?url=referer">valid html 5</a> .
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">valid css</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
