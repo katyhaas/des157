@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+	<title>audience testing results</title>
+
+</head>
+
+<body>
+
+	<section>
+		<h1>audience testing results </h1>
+	</section>
+
+	<section>
+
+		<div id="col1">
+			<h3>description</h3>
+			<p>• a collection of uplifting sounds and imagery to put people at ease (in relation to anxiety), this can include things like rain, beach waves, etc.; user submitted content and free to use; uplifting words to help put people at ease; maybe both a random
+				generator and a search function?; also goes in depth about local resources and step guides for personal help and growth :)</p>
+		</div>
+
+		<div id="col2">
+			<h3>learning</h3>
+			<p>• and interactive game that goes in-depth about gender socialization and expression, and how people react; possibly a customizable avatar?; not sure what the game would be necessarily about, but possibly an interactive visual novel format OR a 8bit
+				style platformer; story based on choices and real-life submitted stories about gender discrimination within school/workplace</p>
+		</div>
+
+		<div id="col3">
+			<h3>new gameplan</h3>
+			<p>• interactive guide to make education accessible to those that cannot afford resources; could either be a guide for applying to college, or a guide once within college? (or both); interactive app, includes quizzes and mini-games; local resources linked for
+			each person in whatever areas they are in; also mini lesson articles about the wealth gap and how it is putting people at a disadvantage; combatting the system to help others</p>
+		</div>
+
+	</section>
+
+	<footer>
+    <a href="https://katyhaas.github.io/des157/">Portal</a> //
+    <a href="mailto:kmhaas@ucdavis.edu">Email</a> //
+    <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a> //
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+  </footer>
+</body>
+
+</html>
