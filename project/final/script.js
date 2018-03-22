@@ -1,3 +1,7 @@
+//  a project by katy + kylinna
+// external patterns and references:
+// 2D Sine Wave, by unicar on codepen.io (https://codepen.io/unicar/)
+
 "use strict";
 
 var page1 = document.querySelector('#page1');
@@ -419,3 +423,36 @@ function gridOtherwave() {
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
+
+// Clear everything and go home
+home.addEventListener('click', function() {
+    page1.style.display = 'block';
+    page2.style.display = 'none';
+    page3.style.display = 'none';
+    page4.style.display = 'none';
+    page5.style.display = 'none';
+
+    song1.style.backgroundColor = "rgba(255, 255, 255, 0)";
+    song2.style.backgroundColor = "rgba(255, 255, 255, 0)";
+    song3.style.backgroundColor = "rgba(255, 255, 255, 0)";
+    song4.style.backgroundColor = "rgba(255, 255, 255, 0)";
+
+    color1.style.backgroundColor = "rgba(255, 255, 255, 0)";
+    color2.style.backgroundColor = "rgba(255, 255, 255, 0)";
+    color3.style.backgroundColor = "rgba(255, 255, 255, 0)";
+    color4.style.backgroundColor = "rgba(255, 255, 255, 0)";
+
+    background1.style.backgroundColor = "rgba(255, 255, 255, 0)";
+    background2.style.backgroundColor = "rgba(255, 255, 255, 0)";
+    background3.style.backgroundColor = "rgba(255, 255, 255, 0)";
+    background4.style.backgroundColor = "rgba(255, 255, 255, 0)";
+
+
+    texture1 = false;
+    texture2 = false;
+    texture3 = false;
+    texture4 = false;
+
+    clear();
+    song.stop();
+});
