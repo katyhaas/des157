@@ -165,7 +165,10 @@ img:hover {
   display: none;
 }
 
-
+#home:hover{
+  cursor:pointer;
+  color:black;
+}
 .sidenav {
   color: white;
   list-style-type: none;
