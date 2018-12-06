@@ -412,36 +412,36 @@ function gridOtherwave() {
 // Clear everything and go home
 home.addEventListener('click', function() {
 
-  page1.style.display = 'block';
-  page2.style.display = 'none';
-  page3.style.display = 'none';
-  page4.style.display = 'none';
+    page1.style.display = 'block';
+    page2.style.display = 'none';
+    page3.style.display = 'none';
+    page4.style.display = 'none';
 
-  vis1.style.backgroundColor = 'rgba(255, 255, 255, 0)';
-  vis2.style.backgroundColor = 'rgba(255, 255, 255, 0)';
-  vis3.style.backgroundColor = 'rgba(255, 255, 255, 0)';
-  vis4.style.backgroundColor = 'rgba(255, 255, 255, 0)';
+    vis1.style.backgroundColor = 'rgba(255, 255, 255, 0)';
+    vis2.style.backgroundColor = 'rgba(255, 255, 255, 0)';
+    vis3.style.backgroundColor = 'rgba(255, 255, 255, 0)';
+    vis4.style.backgroundColor = 'rgba(255, 255, 255, 0)';
 
-  song1.style.backgroundColor = 'rgba(255, 255, 255, 0)';
-  song2.style.backgroundColor = 'rgba(255, 255, 255, 0)';
-  song3.style.backgroundColor = 'rgba(255, 255, 255, 0)';
-  song4.style.backgroundColor = 'rgba(255, 255, 255, 0)';
+    song1.style.backgroundColor = 'rgba(255, 255, 255, 0)';
+    song2.style.backgroundColor = 'rgba(255, 255, 255, 0)';
+    song3.style.backgroundColor = 'rgba(255, 255, 255, 0)';
+    song4.style.backgroundColor = 'rgba(255, 255, 255, 0)';
 
-  radialSelected = false;
-  barzSelected = false;
-  waveSelected = false;
+    radialSelected = false;
+    barzSelected = false;
+    waveSelected = false;
 
-  songA = false;
-  songB = false;
-  songC = false;
-  songD = false;
+    songA = false;
+    songB = false;
+    songC = false;
+    songD = false;
 
-  a.stop();
-  b.stop();
-  c.stop();
-  d.stop();
+    a.stop();
+    b.stop();
+    c.stop();
+    d.stop();
 
-  clear();
+    clear();
 });
 
 
